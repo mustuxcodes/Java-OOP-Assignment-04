@@ -2,8 +2,7 @@ import java.util.Arrays;
 
 public class CodeReuse {
     
-    /* working is written below in cmnts
-     * Sorts an array of integers in descending order.
+    /* Question no 2
      */
     public static void sortDescending(int[] array) {
         boolean swapped;
@@ -23,16 +22,7 @@ public class CodeReuse {
         }
     }
 
-//Question 4 its working is written below chck out below
-/*
-     * Performs matrix multiplication on two matrices.
-     * @param matrixA First matrix
-     * @param matrixB Second matrix
-     * @param rowsA Number of rows in matrix A
-     * @param columnsA Number of columns in matrix A
-     * @param columnsB Number of columns in matrix B
-     * @return The resulting matrix after multiplication
-     */
+//Question 4 
 
 
 public static double[] calculateStatistics(int[] array) {
@@ -68,16 +58,6 @@ private static double calculateSumOfSquares(int[] array) {
 }
 
 //Question 6 
-
-/*
-     * Performs matrix multiplication on two matrices.
-     * @param matrixA First matrix
-     * @param matrixB Second matrix
-     * @param rowsA Number of rows in matrix A
-     * @param columnsA Number of columns in matrix A
-     * @param columnsB Number of columns in matrix B
-     * @return The resulting matrix after multiplication
-     */
 
 public static int[][] matrixMultiplication(int[][] matrixA, int[][] matrixB, int rowsA, int columnsA, int columnsB) {
     int[][] product = new int[rowsA][columnsB];
